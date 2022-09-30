@@ -1,0 +1,30 @@
+.NavbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.Navbar--logo {
+    color: #333333;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -2.5px;
+}
+.Navbar--buttons button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 20px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cartIcon {
+    height: 20px;
+}
+
