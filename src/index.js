@@ -4,5 +4,6 @@ import './index.css';
 import './Components/Navbar/Navbar.css'
 import App from './App';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
