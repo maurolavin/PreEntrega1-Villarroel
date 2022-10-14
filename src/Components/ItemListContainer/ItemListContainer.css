@@ -35,7 +35,8 @@ h2 {
     text-align: center;
 }
 
-#ItemDetailAction {
+a {
+    text-decoration: none;
     background-color: rgba(51, 51, 51, 0.05);
     border-radius: 8px;
     border-width: 0;
@@ -58,7 +59,7 @@ h2 {
     touch-action: manipulation;
 }
 
-#ItemDetailAction:hover{
+a:hover{
     background-color:#32ea48;
     color:#e2e2e2;
 }

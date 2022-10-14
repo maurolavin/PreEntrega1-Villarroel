@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ItemContainer({id, img, nombre, precio}) {
     return(
@@ -7,7 +8,7 @@ export default function ItemContainer({id, img, nombre, precio}) {
             <img src={img} className="ItemContainerImg"/>
             <h2>{nombre}</h2>
             <h3>{precio}</h3>
-            <button id="ItemDetailAction">Ver Detalle</button>
+            <Link to={`/detail/${id}`}>Ver detalle</Link>
         </div>
     )
 }

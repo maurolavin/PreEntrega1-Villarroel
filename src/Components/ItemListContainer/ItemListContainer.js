@@ -44,6 +44,18 @@ export default function ProductsList(greeting) {
             nombre="Puffer The North Face "
             precio="$280"            
             />
+            <ItemContainer
+            id="7"
+            img= "http://cdn.yoox.biz/13/13476657ap_13_f.jpg"
+            nombre="Stone Island Pants"
+            precio="$250"            
+            />
+            <ItemContainer
+            id="8"
+            img= "https://cdn-images.farfetch-contents.com/16/64/88/87/16648887_36645860_2048.jpg"
+            nombre="Palm Angels Tee"
+            precio="$250"            
+            />
             
 
         </div>
